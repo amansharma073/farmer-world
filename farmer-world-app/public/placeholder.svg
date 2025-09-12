@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dff3e7"/>
+      <stop offset="100%" stop-color="#f3f7f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <g fill="#2fa06a" opacity="0.6">
+    <path d="M120 420c0-90 90-210 210-210 0 120-120 210-210 210z"/>
+    <path d="M520 460c0-120 120-240 240-240 0 150-120 240-240 240z"/>
+  </g>
+  <g stroke="#1b6f50" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M160 400c40-20 120-80 160-160"/>
+    <path d="M560 440c40-30 100-100 130-170"/>
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="36" fill="#145942">Image coming from farm</text>
+</svg>
+
+
