@@ -17,7 +17,7 @@ export default function Contact() {
           </form>
         </div>
         <div className="contact-illustration" aria-hidden="true">
-          <img className="contact-img" src="/social1.jpg" alt="Contact illustration" referrerPolicy="no-referrer" onError={(e) => { e.currentTarget.src = '/placeholder.svg' }} />
+          <img className="contact-img" src="/TractorFarm1.webp" alt="Contact illustration" referrerPolicy="no-referrer" onError={(e) => { e.currentTarget.src = '/placeholder.svg' }} />
         </div>
       </div>
     </section>

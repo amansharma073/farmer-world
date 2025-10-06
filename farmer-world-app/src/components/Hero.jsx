@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react'
 
 export default function Hero() {
   const gallery = useMemo(() => ([
-    { src: '/social1.jpg', alt: 'Community harvest', caption: 'Stories from the farm community.' },
+    { src: '/Farm2.jpg', alt: 'Community harvest', caption: 'Stories from the farm community.' },
     { src: '/farm%20image.jpg', alt: 'Fields at sunrise', caption: 'Fresh morning over green rows.' },
     { src: '/Social-1.jpg', alt: 'Sharing experience', caption: 'Farmers sharing techniques and results.' },
   ]), [])
