@@ -1,23 +1,19 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { Toaster } from 'react-hot-toast'
 import Header from '../components/Header.jsx'
-import Section from '../components/Section.jsx'
-import CatalogGrid from '../components/CatalogGrid.jsx'
+import CatalogPage from '../components/CatalogPage.jsx'
 import Footer from '../components/Footer.jsx'
 import { sampleData } from '../data/sampleData.js'
 
 export default function ToolsPage() {
-  const [q, setQ] = useState('')
   return (
     <>
+      <Toaster position="bottom-right" />
       <Header />
-      <main>
-        <Section id="tools" title="Farming Tools" onQueryChange={setQ}>
-          <CatalogGrid items={sampleData.tools} query={q} />
-        </Section>
+      <main className="bg-white dark:bg-gray-900 min-h-screen">
+        <CatalogPage title="Farming Tools" items={sampleData.tools} />
       </main>
       <Footer />
     </>
   )
 }
-
-
